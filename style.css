@@ -1,0 +1,176 @@
+body {
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+section {
+    margin-bottom: 10%;
+}
+
+
+.section-1 {
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 40px;
+}
+
+.container {
+    text-align: center;
+    align-items: center;
+
+}
+
+.text {
+    color: gainsboro;
+}
+
+.text h1 {
+    font-weight: 700;
+}
+
+.link-button {
+    color: bisque;
+    text-decoration: none;
+    background-color: orangered;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.amount-area {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.amount-area h2 {
+    margin-left: 20px;
+    box-shadow: -3px 3px 3px gray;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+.orange-border {
+    background-color: rgb(232, 189, 108);
+    border: 2px solid orangered;
+}
+
+.pay-donate {
+    text-align: center;
+}
+
+.pay-donate hr {
+    width: 80%;
+}
+
+.text-color {
+    color: rgb(42, 41, 41);
+    margin-bottom: 0;
+}
+
+.donate-plan {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 20px;
+
+}
+
+.donate-plan-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.plan-container-1 {
+    background-color: rgb(153, 244, 236);
+    padding: 20px 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+
+}
+
+.plan-container-2 {
+    background-color: rgb(246, 91, 91);
+    padding: 20px 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+
+}
+
+.plan-container-3 {
+    border-radius: 5px;
+    background-color: rgb(242, 195, 134);
+    padding: 20px 20px;
+    margin-left: 20px;
+
+}
+
+.section-4 {
+    display: flex;
+    padding: 20px 20px;
+    width: 100%;
+    margin: 10px;
+}
+
+.dunation-banner {
+    width: 100%;
+    padding: 20px;
+
+}
+
+.dunation-banner img {
+    width: 100%;
+}
+
+.subscribe-title {
+    text-align: center;
+    margin: 0% 20%;
+}
+
+.subscribe-area {
+    background-color: rgb(240, 193, 61);
+    border-radius: 5px;
+    margin: 0% 20%;
+    height: 200px;
+
+}
+
+.subscribe-area form {
+    text-align: center;
+    justify-content: center;
+    padding-top: 12%;
+}
+
+.subscribe-button {
+    padding: 10px 10px;
+    margin: 0%;
+}
+
+.subscribe-button {
+    margin: 0;
+    background-color: red;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+
+/* footer :start */
+
+.orange-color {
+    color: orangered;
+    font-style: italic;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 50px;
+    background-color: black;
+    color: aliceblue;
+}
